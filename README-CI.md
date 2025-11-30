@@ -1,5 +1,3 @@
-
-
 ## Website content: 
 https://github.com/WSU-kduncan/cicdf25-RabidNinja/tree/main/web-content
 
