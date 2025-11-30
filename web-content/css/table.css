@@ -1,0 +1,35 @@
+table {
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 60%;
+    font-family: 'Calibri';
+}
+
+thead {
+    background-color: cyan;
+}
+
+td, th {
+    border: 1px black solid;
+    width: 5%;
+    padding: 0 5px;
+}
+
+th {
+    text-align: left;
+    height: 30px;
+}
+
+td {
+    height: 50px;
+    vertical-align: top;
+}
+
+.col1 {
+    width: 15%;
+    background-color: yellow;
+}
+
+.vertAlignTop {
+    vertical-align: top;  
+}

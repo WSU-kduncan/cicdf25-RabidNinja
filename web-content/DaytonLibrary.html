@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huang: Dayton Library</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/table.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>
+                Welcome to Allen Huang's Website!
+            </h1>
+        </header>
+        <nav>
+            <strong>
+                <a href="index.html">Home</a> &nbsp;
+                <a href="DaytonLibrary.html">Dayton Library</a> &nbsp;
+                <a href="classes.html">Classes</a> &nbsp;
+                <a href="#">Schedule</a> &nbsp;
+                <a href="#">Contact</a>
+            </strong>
+        </nav>
+        <main>
+            <article>
+                <h2>Dayton Metro Library Conference Room</h2>
+                <p>
+                    Need information? Look no further. From history to health and languages to law, we have more than 50 different databases offering free, reliable, current information. Please note, some databases require your library card and PIN to access outside the Library. Explore all databases.
+                </p>
+                <h3>Connecting You to A World Of Information</h3>
+                <p>
+                    Your Dayton Metro Library is the place to meet! There are performance spaces, gathering places, conference rooms and study areas. Whether you need a small, quiet space for study, a larger room for collaboration, or a venue to host an important event the right size space is available at your Dayton Metro Library. Bellow see schedule events for today: 
+                </p>
+                <div>
+                    <address>
+                    </address>
+                </div>
+
+                <table class="myTable">
+                    <caption>
+                    </caption>
+                    <colgroup>
+                        <col class="col1">
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                    </colgroup>
+                    <thead> <!-- to group all table headings -->
+                        <tr> <!-- start with a table row -->
+                            <th> <strong>Conference Room</strong></td>
+                            <th>8:00am</td>
+                            <th>9:00am</td>
+                            <th>10:00am</td>
+                            <th>11:00am</td>
+                            <th>12:00pm</td>
+                            <th>1:00pm</td>
+                            <th>2:00pm</td>
+                            <th>3:00pm</td>
+                            <th>4:00pm</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="vertAlignTop">Kus Room</th>
+                            <td colspan="4">Retirement Planning Seminar</td>
+                            <td>Free</td>
+                            <td colspan="2">Friends of the Library Meeting</td>
+                            <td colspan="2">Algebra II Tutoring</td>
+                        </tr>
+                        <tr>
+                            <th class="vertAlignTop">Mielke Room</th>
+                            <td colspan="2">Free</td>
+                            <td colspan="2">Scrapbooking Club</td>
+                            <td>Library Luncheon</td>
+                            <td>Reading Club</td>
+                            <td colspan="2">Job Interview Workshop</td>
+                            <td>Free</td>
+                        </tr>
+                        <tr>
+                            <th class="vertAlignTop">Anne Room</th>
+                            <td colspan="4">Free</td>
+                            <td>Private Use</td>
+                            <td>Free</td>
+                            <td colspan="2">Webinar Reservation</td>
+                            <td colspan="2">Chemistry Tutoring</td>
+                        </tr>
+                        <tr>
+                            <th class="vertAlignTop">Cederholm Room</th>
+                            <td colspan="4">City Planning Meeting</td>
+                            <td>City Planning Lunch</td>
+                            <td colspan="3">City Planning Meeting</td>
+                            <td>Private Use</td>
+                        </tr>
+                        <script> 
+                            var dt = new Date();
+                            document.getElementsByTagName("caption")[0].innerHTML = dt.toLocaleDateString();
+                        </script>
+                    </tbody>
+                    <tfoot>
+                        <!-- <tr>
+                            <td>Weekly Schedule</td>
+                            <td>Weekly Schedule</td>
+                            <td>Weekly Schedule</td>
+                            <td>Weekly Schedule</td>
+                            <td>Weekly Schedule</td>
+                            <td>Weekly Schedule</td>
+                        </tr> -->
+                    </tfoot>
+                </table>
+            </article>
+            <aside>
+                <h3>Favorite Video Game Character</h3>
+                <img src="Images/Ornn_Wallpaper.jpg" alt="Image of Ornn">
+            </aside>
+        </main>
+        <footer>
+            <em>
+                &copy; 2018 Huang <br>
+                Email me at <a href="mailto: huang.77@wright.edu">huang.77@wright.edu</a>
+            </em>
+        </footer>
+        
+    </section>
+</body>
+</html>
