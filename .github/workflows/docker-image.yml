@@ -25,7 +25,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            lordrabid/cs3120proj4
+            ${{ secrets.DOCKER_USERNAME }}/cs3120proj4
           tags: |
             type=semver,pattern={{major}}
             type=semver,pattern={{major}}.{{minor}}
