@@ -73,6 +73,18 @@
 - run the image
 - check if the associated website is correct (in this case, go to http://localhost:8080/index.html)
 
+# Part 4
+## Project Overview
+
+### Goal(s)
+- Create a GitHub workflow that adds tags for version control to certain commits and send the versions to DockerHub.
+- Be able to pull each version and view each version of the website
+
+### Tools used:
+- Docker: build and runs container images
+- GitHub: version control + push to docker
+- PAT: used to authenticate to DockerHub
+
 # Resources:
 
 ### ChapGPT:
