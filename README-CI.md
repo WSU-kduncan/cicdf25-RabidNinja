@@ -50,5 +50,5 @@
 # Part 3
 
 ### GitHub Tags
-- `git tag -a v*.*.*` - generated a tag for the most recent commit
+- `git tag -a v*.*.* -m ""` - generat a tag for the most recent commit with a message
 
