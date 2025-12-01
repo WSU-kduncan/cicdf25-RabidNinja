@@ -29,7 +29,20 @@
 - DOCKER_TOKEN: password for using a PAT
 
 ## CI with GitHub Actions
-###
+- The workflow is configured to run only when a commit is pushed to `main`.
+- Checkout repository: Pulls repository contents so `Dockerfile` and `web-content/` are available.
+- Login: Uses previously saved secrets to authenticate to DockerHub
+- Build & Push: builds the image using `Dockerfile`, tags it with `lordrabid/cs3120proj4:latest`, and pushes to DockerHub
+
+## Testing & Validating
+
+### GitHub Workflow:
+- Push a commit
+- GitHub -> `Actions` -> `Docker Image CI`
+
+### DockerHub:
+- 
+- 
 
 ### Links
 - Workflow file: https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/a374291e6f81aeb117fa4eee099c355fe9318512/.github/workflows/docker-image.yml
