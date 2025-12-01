@@ -2,10 +2,10 @@
 ## Website content: 
 https://github.com/WSU-kduncan/cicdf25-RabidNinja/tree/main/web-content
 
-## Dockerfile:
+### Dockerfile:
 https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/main/Dockerfile
 
-## Commands:
+### Commands:
 - Build Image from Dockerfile: `docker build -t cs3120proj4:latest .`
 - Tagging for DockerHub: `docker tag cs3120proj4:latest lordrabid/cs3120proj4:latest`
 - Logging in to DockerHub: `docker login -u lordrabid`
@@ -13,7 +13,7 @@ https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/main/Dockerfile
 
 # Part 2
 
-## How to Create a Personal Access Token (PAT)
+### How to Create a Personal Access Token (PAT)
 - Docker -> `Account Settings` -> `Settings` -> `Personal access tokens`
 - Click `Generate new token`.
 - Fill out information.
@@ -24,13 +24,13 @@ https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/main/Dockerfile
 - GitHub -> `Settings` -> `Secrets and Variables` -> `Actions`
 - Click `New repository secret`
 
-## Secrets for this Project
+### Secrets for this Project
 - DOCKER_USERNAME: username used to authenticate
 - DOCKER_TOKEN: password for using a PAT
 
 #
 
-## ??
+### ??
 - Link to workflow file: https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/a374291e6f81aeb117fa4eee099c355fe9318512/.github/workflows/docker-image.yml
 
 
