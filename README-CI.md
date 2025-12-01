@@ -1,11 +1,10 @@
 # Part 1
-## Website content: 
-https://github.com/WSU-kduncan/cicdf25-RabidNinja/tree/main/web-content
 
-### Dockerfile:
-https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/main/Dockerfile
+## Links
+- Website content: https://github.com/WSU-kduncan/cicdf25-RabidNinja/tree/main/web-content
+- Dockerfile: https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/main/Dockerfile
 
-### Commands:
+### Commands Used:
 - Build Image from Dockerfile: `docker build -t cs3120proj4:latest .`
 - Tagging for DockerHub: `docker tag cs3120proj4:latest lordrabid/cs3120proj4:latest`
 - Logging in to DockerHub: `docker login -u lordrabid`
