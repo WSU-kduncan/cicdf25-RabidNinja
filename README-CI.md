@@ -79,5 +79,9 @@
 - "give me some test cases" (for testing tag versions)
 - "help me format my README" (ended up formmatting the entire thing myself anyway)
 - "how does this look" (pasted my readme)
+
 ### Docker Docs
-- https://docs.docker.com/build/ci/github-actions/manage-tags-labels/
+- https://docs.docker.com/build/ci/github-actions/manage-tags-labels/ (General info about tags)
+
+### GitHub 
+- https://github.com/docker/metadata-action?tab=readme-ov-file#semver (used info for docker-image-yml, specifically about the metadata)
