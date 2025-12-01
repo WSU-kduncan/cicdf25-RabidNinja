@@ -41,8 +41,7 @@
 - GitHub -> `Actions` -> `Docker Image CI`
 
 ### DockerHub:
-- 
-- 
+- DockerHub repo -> Check if last push time matches workflow time
 
 ### Links
 - Workflow file: https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/a374291e6f81aeb117fa4eee099c355fe9318512/.github/workflows/docker-image.yml
