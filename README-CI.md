@@ -1,6 +1,6 @@
 # Part 1
 
-### Links
+### Links:
 - Website content: https://github.com/WSU-kduncan/cicdf25-RabidNinja/tree/main/web-content
 - Dockerfile: https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/main/Dockerfile
 
@@ -27,11 +27,10 @@
 - DOCKER_USERNAME: username used to authenticate
 - DOCKER_TOKEN: password for using a PAT
 
-#
 
 ### Links
 - Workflow file: https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/a374291e6f81aeb117fa4eee099c355fe9318512/.github/workflows/docker-image.yml
-
+- DockerHub repo: https://hub.docker.com/repository/docker/lordrabid/cs3120proj4/general
 
 # Part 3
 
