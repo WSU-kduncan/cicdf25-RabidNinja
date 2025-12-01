@@ -11,15 +11,16 @@
 - Push to DockerHub: `docker push lordrabid/cs3120proj4:latest`
 
 # Part 2
+## Configuring GitHub Repository Secrets
 
-### How to Create a Personal Access Token (PAT)
+### How to Create a Personal Access Token (PAT):
 - Docker -> `Account Settings` -> `Settings` -> `Personal access tokens`
 - Click `Generate new token`.
 - Fill out information.
 - For this project, a token with with permission to read/write is appropriate to push images.
 - Create the token and copy the password (it will be inaccessible later).
 
-## Setting Repository Secrets for use by GitHub Actions
+### Setting Repository Secrets for use by GitHub Actions:
 - GitHub -> `Settings` -> `Secrets and Variables` -> `Actions`
 - Click `New repository secret`
 
@@ -27,6 +28,8 @@
 - DOCKER_USERNAME: username used to authenticate
 - DOCKER_TOKEN: password for using a PAT
 
+## CI with GitHub Actions
+###
 
 ### Links
 - Workflow file: https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/a374291e6f81aeb117fa4eee099c355fe9318512/.github/workflows/docker-image.yml
