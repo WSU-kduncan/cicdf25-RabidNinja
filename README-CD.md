@@ -80,4 +80,5 @@
     - Added instructions in the GitHub Actions workflow file
 - Triggers:
     - A commit with a v*.*.* tag is pushed
+- Verifying successful payload: `journalctl -u webhook -f`
 - Requires tokens from GitHub (EC2_PUBLIC_IP and WEBHOOK_TOKEN)
