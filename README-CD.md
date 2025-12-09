@@ -59,6 +59,7 @@
 - Link: https://github.com/WSU-kduncan/ceg3120f25-RabidNinja/blob/main/Project5/deployment/hooks.json
 
 ## Webhook Service
+- Located in `/etc/systemd/system/`
 - Runs as ec2-user
 - Starts webhook on port 9000
 - Always restarts

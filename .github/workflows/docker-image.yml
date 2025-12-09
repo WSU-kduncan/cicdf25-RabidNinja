@@ -38,3 +38,8 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Notify EC2 deployment webhook
+        if: success()
+        run: |
+          curl -X POST "http://${{ secrets.EC2_PUBLIC_IP }}:9000/hooks/deploy-app?token=${{ secrets.WEBHOOK_TOKEN }}"
