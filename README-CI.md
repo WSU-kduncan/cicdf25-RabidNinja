@@ -1,3 +1,13 @@
+# Project Overview
+- Goal: when a commit with a tag v*.*.* is pushed to GitHub:
+    1. GitHub Actions builds a new Docker image
+    2. The image is pushed to Docker Hub.
+    3. GitHub Actions sends a webhook payload to my EC2 instance.
+    4. The EC2 instance runs a script that checks whether an image with the same name is running
+        - if none, runs new image
+        - if one already exists, stop and deletes that one, then runs new image
+
+
 # Part 1
 
 ### Links:

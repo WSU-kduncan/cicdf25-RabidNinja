@@ -34,9 +34,6 @@
 
 ## Other notes for part 1
 - after connecting to instance, `docker --version` to check if docker is installed
-- PAT for proj 5: 
-    - `docker login -u lordrabid`
-    - `dckr_pat_n8myse3P7JKDo9IeuqArr-McpFM`
 
 # Part 2
 
