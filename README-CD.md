@@ -72,3 +72,12 @@
 - Link: https://github.com/WSU-kduncan/ceg3120f25-RabidNinja/blob/main/Project5/deployment/webhook
 
 # Part 3
+
+## Configuring payload sender
+- Why GitHub? 
+    - Felt simple to add webhook sending at the end of the already-established GitHub Actions workflow
+- How?
+    - Added instructions in the GitHub Actions workflow file
+- Triggers:
+    - A commit with a v*.*.* tag is pushed
+- Requires tokens from GitHub (EC2_PUBLIC_IP and WEBHOOK_TOKEN)
