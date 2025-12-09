@@ -1,0 +1,17 @@
+[
+  {
+    "id": "deploy-app",
+    "execute-command": "/home/ec2-user/deployment/pullrun",
+    "command-working-directory": "/home/ec2-user",
+    "trigger-rule": {
+      "match": {
+        "type": "value",
+        "value": "super-secret-password",
+        "parameter": {
+          "source": "url",
+          "name": "token"
+        }
+      }
+    }
+  }
+]
