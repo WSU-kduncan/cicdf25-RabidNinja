@@ -1,7 +1,13 @@
 - show website: `http://54.221.237.50`
+- `docker ps`
 - change index.html
 - `git add .`
 - `git commit -m "practicing for demo"`
+- `git push`
 - `git tag v1.5.7 -m "v1.5.7 is here!"`
 - `git push origin v*.*.*`
-- `git push`
+- show GitHub Actions
+- show DockerHub
+- Payload sent log: "Notify webhook" in GitHub Actions
+- show webhook running: `sudo systemctl status webhook`
+- `sudo journalctl -u webhook -f`
