@@ -10,4 +10,4 @@
 - show DockerHub
 - Payload sent log: "Notify webhook" in GitHub Actions
 - show webhook running: `sudo systemctl status webhook`
-- `sudo journalctl -u webhook -f`
+- `journalctl -u webhook -f`
