@@ -8,7 +8,7 @@
 - `Dockerfile`
 - `HUANG.CF.yml`: CF template used for project 5
 
-### Links:
+## Links:
 - [README-CI.md](https://github.com/WSU-kduncan/cicdf25-RabidNinja/blob/main/README-CI.md)
     - Building and pushing an image with Docker
     - How to create a Personal Access Token

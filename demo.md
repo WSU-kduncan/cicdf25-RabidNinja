@@ -1,0 +1,7 @@
+- show website: `http://54.221.237.50`
+- change index.html
+- `git add .`
+- `git commit -m "practicing for demo"`
+- `git tag v1.5.7 -m "v1.5.7 is here!"`
+- `git push origin v*.*.*`
+- `git push`
