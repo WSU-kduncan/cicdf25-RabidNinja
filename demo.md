@@ -11,3 +11,4 @@
 - Payload sent log: "Notify webhook" in GitHub Actions
 - show webhook running: `sudo systemctl status webhook`
 - `journalctl -u webhook -f`
+- refresh site and docker
