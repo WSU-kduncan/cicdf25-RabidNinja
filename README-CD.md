@@ -71,11 +71,13 @@
 # Part 3
 
 ## Configuring payload sender
-- Why GitHub? 
-    - Felt simple to add webhook sending at the end of the already-established GitHub Actions workflow
+- GitHub vs DockerHub
+    - I chose GitHub, but it depends on what you want the trigger condition(s) to be
 - How?
-    - Added instructions in the GitHub Actions workflow file
+    - GitHub Settings -> Webhooks
+    - Paylod URL: http://54.221.237.50:9000/hooks/deploy-app?token=super-secret-password
+    - Select trigger condition ("Workflow runs" in this case)
 - Triggers:
-    - A commit with a v*.*.* tag is pushed
+    - When a workflow is requested or completed
 - Verifying successful payload: `journalctl -u webhook -f`
 - Requires tokens from GitHub (EC2_PUBLIC_IP and WEBHOOK_TOKEN)
